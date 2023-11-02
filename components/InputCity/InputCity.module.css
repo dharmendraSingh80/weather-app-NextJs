@@ -1,0 +1,25 @@
+.search {
+    border: 3px solid #9488D7;
+    border-radius: 3vw;
+  }
+
+  .location {
+    height: 4vh;
+    max-height: 40px;
+    width: 50vw;
+    max-width: 330px;
+    padding-left: 5%;
+
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+}
+
+.location::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.location:focus {
+    outline: none;
+}
